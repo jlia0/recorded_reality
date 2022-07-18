@@ -1,12 +1,11 @@
-import { GlobalStyle } from './styles/GlobalStyle'
-
-import { Greetings } from './components/Greetings'
+import {GlobalStyle} from './styles/GlobalStyle'
+import {Volumetric} from "./components/Volumetric";
 
 export function App() {
-  return (
-    <>
-      <GlobalStyle />
-      <Greetings />
-    </>
-  )
+    return (
+        <>
+            <GlobalStyle/>
+            <Volumetric/>
+        </>
+    )
 }
